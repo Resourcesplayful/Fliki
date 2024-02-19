@@ -14,6 +14,16 @@
 *.ipr
 *.iws
 .idea/
+var a = "blogpost";
+
+function tovideo(input) {
+    // Assuming parsevideo is a function to parse the video
+    input.parsevideo();
+}
+
+// Call the tovideo function with 'a' as an argument
+tovideo(a);
+
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
